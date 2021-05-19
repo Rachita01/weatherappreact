@@ -1,0 +1,89 @@
+* {
+  margin:20px;
+  padding: 0;
+  box-sizing: border-top;
+}
+
+body{
+  font-family:'montseratt', sans-serif;
+}
+
+.app{
+  background-image:url('./assets/Weatherback1.jpg');
+  background-size:cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+  width:500px;
+}
+
+.app.warm{
+  background-image:url('./assets/Weatherback2.jpg');
+}
+
+main{
+  min-height:800px;
+  padding:10px;
+}
+
+.search-box{
+  width: 100%;
+  margin: 0 0 5px;
+}
+
+.search-box .search-bar{
+   display:block;
+   width: 100%;
+   padding:20px;
+   appearance: none;
+   background: none;
+   border:none;
+   outline:none;
+   background-color: rgba(255,255,255,0.5);
+   border-radius: 0px 0px 16px 16px;
+   box-shadow: 5px 5px rgba(0,0,0,0.2);
+   margin:-10px 0px 0px -20px;
+}
+
+.location-box .location{
+  color:#FFF;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50,50,70,0.5);
+  padding-top:100px;
+}
+
+.location-box .date{
+  color:#FFF;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  font-style: italic;
+  margin-top: -10px;
+}
+
+.weather-box{
+  text-align:center;
+}
+
+.weather-box .temperature{
+    position:relative;
+    display:inline-block;
+    margin:30px auto;
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius:10px;
+    padding:15px 25px;
+    color:#FFF;
+    font-size:70px;
+    font-weight:900;
+    text-shadow: 2px 4px rgba(50, 50, 70, 0.5);
+    text-align:center;
+}
+
+.weather-box .weather{
+  color:rgb(238, 230, 230);
+    font-size:40px;
+    font-weight:900;
+    text-shadow: 2px 4px rgba(50, 50, 70, 0.5);
+    text-align:center;
+}
